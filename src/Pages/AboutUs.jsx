@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import dp from '../assets/Images/dp.jpg'; // Adjust the path based on your folder structure
 
 export default function AboutUsPage() {
@@ -20,14 +20,11 @@ export default function AboutUsPage() {
                   Aspiring software developer and enthusiastic student at Geetanjali Institute of Technical Studies. Passionate about creating innovative solutions and contributing to the tech community.
                 </p>
                 <div className="flex space-x-4">
-                  <a href="https://github.com/rehanrazasayed" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition duration-300">
+                  <a href="https://github.com/rehanrazasayed" target="https://github.com/sydrehan" rel="noopener noreferrer" className="text-secondary hover:text-accent transition duration-300">
                     <FaGithub size={24} />
                   </a>
-                  <a href="https://linkedin.com/in/rehanrazasayed" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition duration-300">
+                  <a href="https://linkedin.com/in/rehanrazasayed" target="https://www.linkedin.com/in/rehan-raza-118720257/" rel="noopener noreferrer" className="text-secondary hover:text-accent transition duration-300">
                     <FaLinkedin size={24} />
-                  </a>
-                  <a href="https://twitter.com/rehanrazasayed" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition duration-300">
-                    <FaTwitter size={24} />
                   </a>
                 </div>
               </div>
@@ -48,12 +45,12 @@ export default function AboutUsPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Mentors</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-gray-100 p-4 rounded-lg">
-                    <h4 className="text-lg font-semibold text-primary">Dr. Rajesh Kumar</h4>
+                    <h4 className="text-lg font-semibold text-primary">Mr. Latif Khan</h4>
                     <p className="text-text">Head of Innovation and Incubation Center, GITS</p>
                     <p className="text-sm text-gray-600 mt-2">Thank you for your guidance and support in fostering innovation.</p>
                   </div>
                   <div className="bg-gray-100 p-4 rounded-lg">
-                    <h4 className="text-lg font-semibold text-primary">Amit Sharma</h4>
+                    <h4 className="text-lg font-semibold text-primary">Er. M. Ateek Samma</h4>
                     <p className="text-text">Senior Student Mentor</p>
                     <p className="text-sm text-gray-600 mt-2">Grateful for your mentorship and valuable insights throughout my journey.</p>
                   </div>
